@@ -1,5 +1,5 @@
 #!/bin/bash
 cd src 
 mvn clean install
-cd server/web/app 
+cd web/app 
 mvn jetty:run -Djetty.port=8181 -o
