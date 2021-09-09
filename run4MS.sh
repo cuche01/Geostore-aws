@@ -4,4 +4,4 @@
 
 cd src/server/web/app
 
-mvn jetty:run -Djetty.port=8181 -Pextjs,h2_disk -o
+mvn jetty:run -Djetty.port=8181 -o
