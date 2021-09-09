@@ -1,5 +1,5 @@
 #!/bin/bash
 cd src 
-mvn clean install
+mvn clean install -DskipTests
 cd web/app 
 mvn jetty:run -Djetty.port=8181 -o
