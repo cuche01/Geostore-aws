@@ -5,7 +5,7 @@ hooks:
     - location: scripts/install_dependencies
       timeout: 300
       runas: root
-    - location: start_server
+    - location: run4MS.sh
       timeout: 300
       runas: root
   ApplicationStop:
