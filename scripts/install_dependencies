@@ -1,2 +1,2 @@
 #!/bin/bash
-yum install maven
+yum install -y maven
